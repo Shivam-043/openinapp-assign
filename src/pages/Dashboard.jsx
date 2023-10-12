@@ -2,21 +2,13 @@ import "./Dashboard.css";
 import SideBar from "../components/SideBar";
 import DashHeader from "../components/DashHeader";
 import { useEffect, useState } from "react";
-import axios from "axios";
-import TopCoinCards from "../components/TopCoinCards";
-import CoinChart from "../components/CoinChart";
+import TopCards from "../components/TopCards";
 import DemoPieChart from "../components/DemoPieChart";
 import Profile from "../components/Profile";
 import data from "../constants";
 import Graph from "../components/Graph";
 
-
-const url =
-  "https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&order=market_cap_desc&per_page=6&page=1&sparkline=false&locale=en";
-
 const Dashboard = () => {
-  const [apiData, setAPIData] = useState();
-  const [coinHistory, setCoinHistory] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -40,12 +32,12 @@ const Dashboard = () => {
         <div className="dashb__container">
           <SideBar />
 
-          <div className="main__dashboard__container">
+          <div className="main__dashboard__container mt-16">
             {/* Dhashboard-Header */}
             <DashHeader />
 
             {/* Top-Crypto-Coins */}
-            <TopCoinCards data={data} />
+            <TopCards data={data} />
 
             {/* History-Chart-Of-A-Single-Chart */}
             {/* <CoinChart coinHistory={coinHistory} /> */}

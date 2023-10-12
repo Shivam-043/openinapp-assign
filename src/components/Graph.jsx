@@ -1,15 +1,14 @@
 import React from 'react';
-import classes from './graph.module.css';
 import ReactApexChart from 'react-apexcharts';
 
 const state = {
           
     series: [{
       name: 'User',
-      data: [500,350,200,400],
+      data: [500,370,200,400],
     }, {
       name: 'Guest',
-      data: [400,450,300,350],
+      data: [400,420,300,350],
     }],
     options: {
       chart: {

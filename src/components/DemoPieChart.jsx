@@ -29,26 +29,24 @@ const DemoPieChart = () => {
 
 
     const data = {
-      labels: ["Bitcoin", "Etherium", "Tether", 'XRP'],
+      labels: ["Basic Tees", "Custom Short Pants", "Super Hoodies"],
       datasets: [
         {
           label: "Fake Data!",
-          data: [45, 30, 15, 10],
+          data: [55, 31, 14],
           backgroundColor: [
-            "rgb(152,216,158)",
-            "rgb(255, 99, 132)",
-            "rgb(54, 162, 235)",
-            "rgb(255, 205, 86)",
+            "rgba(152, 216, 158, 1)",
+            "rgba(246, 220, 125, 1)",
+            "rgba(238, 132, 132, 1)"
           ],
           hoverOffset: 4,
-
         },
       ],
     };
 
   return (
     <div className="pie__chart">
-      <h3>Top Products</h3>
+      <h3 className='font-bold text-[18px]'>Top Products</h3>
 
       <div className="pie__chart__box">
         <Doughnut

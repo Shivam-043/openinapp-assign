@@ -4,6 +4,9 @@ import { collection, getDocs, query, where } from "firebase/firestore";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useEffect, useState } from "react";
 
+import notifications from "../assets/icons/notifications.svg";
+import user from "../assets/icons/user.svg";
+
 const DashHeader = () => {
   const [user, loading, error] = useAuthState(auth);
   const [name, setName] = useState("");
@@ -43,11 +46,11 @@ const DashHeader = () => {
         </div>
 
         <button className="bell__icon">
-          <i className="ri-notification-2-line"></i>
+        <img src={notifications} className='w-[18px] h-[18px] object-contain'/>
         </button>
 
         <div className="profile__icon">
-          {user && <img src={photo} alt="userimage" />}
+          {user && (photo!= null || photo.isEmpty) ? <img src={photo} alt="userimage" />:<img src={user} className='w-[18px] h-[18px] object-contain'/>}
 
           <ul
             className="profile__dropdown"

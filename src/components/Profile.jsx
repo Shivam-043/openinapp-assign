@@ -61,7 +61,7 @@ const Profile = () => {
           className="user__profile"
           style={{ display: showProfile ? "flex" : "none" }}
         >
-          <h3>{profileDetails?.name}</h3>
+          <h3 className="font-bold font-normal text-[24px]">{profileDetails?.name}</h3>
 
           <ul className="profile__links">
             <li className="profile__link">
@@ -73,19 +73,19 @@ const Profile = () => {
               </a>
             </li>
             <li className="profile__link">
-              <button className="profile__link__btn">
-                <i className="ri-mail-line"></i>
-              </button>
-              <a href={profileDetails?.email} target="blank">
-                {profileDetails?.email}
-              </a>
-            </li>
-            <li className="profile__link">
               <button className="profile__link__btn profile__social__btn">
                 <i className="ri-instagram-line"></i>
               </button>
               <a href={profileDetails?.instaLink} target="blank">
                 Instagram
+              </a>
+            </li>
+            <li className="profile__link">
+              <button className="profile__link__btn">
+                <i className="ri-mail-line"></i>
+              </button>
+              <a href={profileDetails?.email} target="blank">
+                {profileDetails?.email}
               </a>
             </li>
             <li className="profile__link">

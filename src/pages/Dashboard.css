@@ -130,7 +130,7 @@
 .sidebar__container {
     width: 80%;
     max-width: 280px;
-    height: 880px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -468,7 +468,7 @@
 }
 
 .profile__links {
-    width: 100%;
+    width: 130%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
