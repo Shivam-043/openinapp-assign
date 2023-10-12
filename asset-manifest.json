@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Shivam-043.github.com/openinapp-assign/static/css/main.dcd96aca.css",
-    "main.js": "/Shivam-043.github.com/openinapp-assign/static/js/main.c5817de6.js",
-    "static/media/first.svg": "/Shivam-043.github.com/openinapp-assign/static/media/first.838085b9ba33027dbb63ae98f2bf1d1b.svg",
-    "static/media/settings.svg": "/Shivam-043.github.com/openinapp-assign/static/media/settings.c005cd75c3e30ebdf14a1fadd3102273.svg",
-    "static/media/fourth.svg": "/Shivam-043.github.com/openinapp-assign/static/media/fourth.91bb2285cee7e72c6e80dc135b98068a.svg",
-    "static/media/second.svg": "/Shivam-043.github.com/openinapp-assign/static/media/second.b2154f5eb7321b9459bd569b78d77be0.svg",
-    "static/media/transactions.svg": "/Shivam-043.github.com/openinapp-assign/static/media/transactions.7bb911eceaefad7b01b2f1aecc89d6aa.svg",
-    "static/media/user.svg": "/Shivam-043.github.com/openinapp-assign/static/media/user.aed307a79ea2992e70d2501975f7d6a9.svg",
-    "static/media/dashboard.svg": "/Shivam-043.github.com/openinapp-assign/static/media/dashboard.45f2b671377976e4eca410b1bc326feb.svg",
-    "static/media/third.svg": "/Shivam-043.github.com/openinapp-assign/static/media/third.4fcad227ae96719c3fcaaef327639083.svg",
-    "static/media/notifications.svg": "/Shivam-043.github.com/openinapp-assign/static/media/notifications.8f86972781feb35d50768882d36f2200.svg",
-    "static/media/schedule.svg": "/Shivam-043.github.com/openinapp-assign/static/media/schedule.157f4305068dd68acc402d8d542bd5c8.svg",
-    "static/media/google.svg": "/Shivam-043.github.com/openinapp-assign/static/media/google.9a7800d06783d80a1c12.svg",
-    "index.html": "/Shivam-043.github.com/openinapp-assign/index.html",
-    "static/media/apple.svg": "/Shivam-043.github.com/openinapp-assign/static/media/apple.ae2395b7cbaac9e9671d.svg",
-    "main.dcd96aca.css.map": "/Shivam-043.github.com/openinapp-assign/static/css/main.dcd96aca.css.map",
-    "main.c5817de6.js.map": "/Shivam-043.github.com/openinapp-assign/static/js/main.c5817de6.js.map"
+    "main.css": "/Shivam-043.github.io/openinapp-assign/static/css/main.36ac1ef9.css",
+    "main.js": "/Shivam-043.github.io/openinapp-assign/static/js/main.4666c44d.js",
+    "static/media/first.svg": "/Shivam-043.github.io/openinapp-assign/static/media/first.838085b9ba33027dbb63ae98f2bf1d1b.svg",
+    "static/media/settings.svg": "/Shivam-043.github.io/openinapp-assign/static/media/settings.c005cd75c3e30ebdf14a1fadd3102273.svg",
+    "static/media/fourth.svg": "/Shivam-043.github.io/openinapp-assign/static/media/fourth.91bb2285cee7e72c6e80dc135b98068a.svg",
+    "static/media/second.svg": "/Shivam-043.github.io/openinapp-assign/static/media/second.b2154f5eb7321b9459bd569b78d77be0.svg",
+    "static/media/transactions.svg": "/Shivam-043.github.io/openinapp-assign/static/media/transactions.7bb911eceaefad7b01b2f1aecc89d6aa.svg",
+    "static/media/user.svg": "/Shivam-043.github.io/openinapp-assign/static/media/user.aed307a79ea2992e70d2501975f7d6a9.svg",
+    "static/media/dashboard.svg": "/Shivam-043.github.io/openinapp-assign/static/media/dashboard.45f2b671377976e4eca410b1bc326feb.svg",
+    "static/media/third.svg": "/Shivam-043.github.io/openinapp-assign/static/media/third.4fcad227ae96719c3fcaaef327639083.svg",
+    "static/media/notifications.svg": "/Shivam-043.github.io/openinapp-assign/static/media/notifications.8f86972781feb35d50768882d36f2200.svg",
+    "static/media/schedule.svg": "/Shivam-043.github.io/openinapp-assign/static/media/schedule.157f4305068dd68acc402d8d542bd5c8.svg",
+    "static/media/google.svg": "/Shivam-043.github.io/openinapp-assign/static/media/google.9a7800d06783d80a1c12.svg",
+    "index.html": "/Shivam-043.github.io/openinapp-assign/index.html",
+    "static/media/apple.svg": "/Shivam-043.github.io/openinapp-assign/static/media/apple.ae2395b7cbaac9e9671d.svg",
+    "main.36ac1ef9.css.map": "/Shivam-043.github.io/openinapp-assign/static/css/main.36ac1ef9.css.map",
+    "main.4666c44d.js.map": "/Shivam-043.github.io/openinapp-assign/static/js/main.4666c44d.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcd96aca.css",
-    "static/js/main.c5817de6.js"
+    "static/css/main.36ac1ef9.css",
+    "static/js/main.4666c44d.js"
   ]
 }
