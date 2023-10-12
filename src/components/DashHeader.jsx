@@ -28,6 +28,7 @@ const DashHeader = () => {
     // if (loading) return;
     // if (!user) return navigate("/");
     fetchUserName();
+    console.log(photo);
   }, [user, loading]);
   // const { user, logout, isAuthenticated } = useAuth0();
 
@@ -46,11 +47,11 @@ const DashHeader = () => {
         </div>
 
         <button className="bell__icon">
-        <img src={notifications} className='w-[18px] h-[18px] object-contain'/>
+        <img src={notifications} alt="notification" className='w-[18px] h-[18px] object-contain'/>
         </button>
 
         <div className="profile__icon">
-          {user && (photo!= null || photo.isEmpty) ? <img src={photo} alt="userimage" />:<img src={user} className='w-[18px] h-[18px] object-contain'/>}
+          {user && (photo!= null || photo === "") ? <img src={photo} alt="userimage" />: <img src={user} alt="userProfile" className='w-[18px] h-[18px] object-contain'/>}
 
           <ul
             className="profile__dropdown"
