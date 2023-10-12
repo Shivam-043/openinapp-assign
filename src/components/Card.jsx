@@ -9,7 +9,7 @@ const Card = ({data}) => {
         {/* dangerouslySetInnerHTML={{ __html: coin.data }} */}
       </div>
 
-      <h4>{data.title}</h4>
+      <p className='text-[13px] sm:text-[18px]'>{data.title}</p>
 
       <div className="price__status">
         <h3 className='font-bold'>{data.data}</h3>
