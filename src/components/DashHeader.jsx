@@ -51,7 +51,7 @@ const DashHeader = () => {
         </button>
 
         <div className="profile__icon">
-          {user && (photo!= null || photo === "") ? <img src={photo} alt="userimage" />: <img src={user} alt="userProfile" className='w-[18px] h-[18px] object-contain'/>}
+          {user && (photo!= null || photo == "") ? <img src={photo} alt="userimage" />:  <i class="ri-user-fill text-[22px] flex justify-center text-center" ></i>}
 
           <ul
             className="profile__dropdown"
